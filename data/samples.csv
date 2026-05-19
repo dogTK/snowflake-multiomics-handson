@@ -1,0 +1,6 @@
+sample_id,cell_line_name,cancer_type,tissue,primary_disease,mutation_summary
+S001,HepG2,Liver Cancer,Liver,Hepatocellular Carcinoma,TP53 mut
+S002,Huh7,Liver Cancer,Liver,Hepatocellular Carcinoma,TP53 mut
+S003,A549,Lung Cancer,Lung,NSCLC,KRAS G12S mut
+S004,MCF7,Breast Cancer,Breast,Breast Adenocarcinoma,PIK3CA mut
+S005,HT29,Colon Cancer,Colon,Colorectal Adenocarcinoma,BRAF V600E mut

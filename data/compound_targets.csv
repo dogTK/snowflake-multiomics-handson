@@ -1,0 +1,6 @@
+drug_id,drug_name,target_symbol,target_name,target_chembl_id,relationship
+DRUG001,Erlotinib,EGFR,Epidermal growth factor receptor,CHEMBL203,primary
+DRUG002,Doxorubicin,TOP2A,DNA topoisomerase 2-alpha,CHEMBL1806,primary
+DRUG003,Gefitinib,EGFR,Epidermal growth factor receptor,CHEMBL203,primary
+DRUG004,Lapatinib,EGFR,Epidermal growth factor receptor,CHEMBL203,primary
+DRUG004,Lapatinib,ERBB2,Receptor tyrosine-protein kinase erbB-2,CHEMBL1824,primary
