@@ -10,6 +10,10 @@
 
 USE ROLE ACCOUNTADMIN;
 
+-- NETWORK RULE などスキーマ配下のオブジェクトを作るため、current database/schema を指定
+USE DATABASE MULTIOMICS_HANDSON;
+USE SCHEMA PUBLIC;
+
 -- ---------------------------------------------------------------------
 -- 1. Compute Pool（Notebook on Container Runtime 用）
 -- ---------------------------------------------------------------------
@@ -56,7 +60,7 @@ GRANT USAGE ON COMPUTE POOL multiomics_compute_pool TO ROLE DATASCIENTIST;
 --   VALUE_LIST = ('pypi.org', 'pypi.python.org', 'pythonhosted.org', 'files.pythonhosted.org');
 --
 -- CREATE OR REPLACE EXTERNAL ACCESS INTEGRATION pypi_access_integration
---   ALLOWED_NETWORK_RULES = (pypi_network_rule)
+--   ALLOWED_NETWORK_RULES = (MULTIOMICS_HANDSON.PUBLIC.pypi_network_rule)
 --   ENABLED = TRUE;
 --
 -- GRANT USAGE ON INTEGRATION pypi_access_integration TO ROLE DATASCIENTIST;
